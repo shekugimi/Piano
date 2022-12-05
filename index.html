@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playable PIANO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="wrap">
+            <div class="wrap-head">
+
+                <p>Playable PIANO</p>
+                <div class="sound">
+                    <span>Volume</span>
+                    <input type="range" min="0" max="1" value="0.5" class="volume-slider" step="any" id="volume">
+                </div>
+                <div class="show-key">
+                    <span>Show key</span>
+                    <input type="checkbox" checked id="show-key">
+                </div>
+            </div>
+
+            <div class="piano-btns">
+                <div class="group-a">
+                    <button data-key="a" class="btns">a</button>
+                    <button data-key="w" class="btns btn-top">w</button>
+                    <button data-key="s" class="btns">s</button>
+                    <button data-key="e" class="btns btn-top">e</button>
+                    <button data-key="d" class="btns">d</button>
+                </div>
+                <div class="group-b">
+                    <button data-key="f" class="btns">f</button>
+                    <button data-key="t" class="btns  btn-top">t</button>
+                    <button data-key="g" class="btns">g</button>
+                    <button data-key="y" class="btns  btn-top">y</button>
+                    <button data-key="h" class="btns">h</button>
+                    <button data-key="u" class="btns  btn-top">u</button>
+                    <button data-key="j" class="btns">j</button>
+                </div>
+                <div class="group-c">
+                    <button data-key="k" class="btns">k</button>
+                    <button data-key="o" class="btns  btn-top">o</button>
+                    <button data-key="l" class="btns">l</button>
+                    <button data-key="p" class="btns  btn-top">p</button>
+                    <button data-key=";" class="btns">;</button>;
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
